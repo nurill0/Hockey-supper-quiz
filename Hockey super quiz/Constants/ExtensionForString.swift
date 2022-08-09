@@ -6,3 +6,10 @@
 //
 
 import Foundation
+import Foundation
+//MARK: extension for string
+extension String {
+    var localizedDD: String {
+        return LocalizationSystem.sharedInstance.localizedStringForKey(key: self, comment: "")
+    }
+}
