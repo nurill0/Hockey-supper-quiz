@@ -7,19 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACA33F704205ABC72E06DEF6 /* Pods_Hockey_super_quiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3517438F006EE6991333477E /* Pods_Hockey_super_quiz.framework */; };
+		FB4AF047289A318100E62219 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4AF046289A318100E62219 /* MainController.swift */; };
+		FB4AF049289A373800E62219 /* bttn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB4AF048289A373800E62219 /* bttn.mp3 */; };
+		FB4AF04F289A3A6200E62219 /* QuizController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4AF04E289A3A6200E62219 /* QuizController.swift */; };
+		FB4AF051289A3A7F00E62219 /* AnswerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4AF050289A3A7F00E62219 /* AnswerController.swift */; };
+		FB4AF053289A3A9400E62219 /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4AF052289A3A9400E62219 /* SettingController.swift */; };
+		FB4AF055289A3AA100E62219 /* ShopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4AF054289A3AA100E62219 /* ShopController.swift */; };
+		FB4AF057289A43B800E62219 /* QuizData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4AF056289A43B800E62219 /* QuizData.swift */; };
+		FB4AF05A289A4CA600E62219 /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4AF059289A4CA600E62219 /* AppButton.swift */; };
+		FB4AF05D289A80D100E62219 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4AF05C289A80D100E62219 /* UserDefaultsManager.swift */; };
+		FB6AC23A289A83D400242F67 /* ScoreInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6AC239289A83D400242F67 /* ScoreInfoController.swift */; };
+		FB6AC23C289A9A6B00242F67 /* AnswerHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6AC23B289A9A6B00242F67 /* AnswerHeaderView.swift */; };
+		FB6AC23E289A9AB800242F67 /* AnswerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6AC23D289A9AB800242F67 /* AnswerCell.swift */; };
+		FBA04CC3289E4934007B86CA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBA04CC5289E4934007B86CA /* Localizable.strings */; };
+		FBA04CC9289E4A28007B86CA /* ExtensionForString.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA04CC8289E4A28007B86CA /* ExtensionForString.swift */; };
+		FBA04CCB289E4A40007B86CA /* LocalizationSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA04CCA289E4A40007B86CA /* LocalizationSystem.swift */; };
 		FBF44106289989F600E8105F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF44105289989F600E8105F /* AppDelegate.swift */; };
 		FBF44108289989F600E8105F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF44107289989F600E8105F /* SceneDelegate.swift */; };
-		FBF4410A289989F600E8105F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF44109289989F600E8105F /* ViewController.swift */; };
+		FBF4410A289989F600E8105F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF44109289989F600E8105F /* BaseViewController.swift */; };
 		FBF4410D289989F600E8105F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF4410B289989F600E8105F /* Main.storyboard */; };
 		FBF4410F289989F700E8105F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF4410E289989F700E8105F /* Assets.xcassets */; };
 		FBF44112289989F700E8105F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF44110289989F700E8105F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3517438F006EE6991333477E /* Pods_Hockey_super_quiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hockey_super_quiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		384BCB17160B10C96829649B /* Pods-Hockey super quiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hockey super quiz.debug.xcconfig"; path = "Target Support Files/Pods-Hockey super quiz/Pods-Hockey super quiz.debug.xcconfig"; sourceTree = "<group>"; };
+		5640C6275958839E9E5133D3 /* Pods-Hockey super quiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hockey super quiz.release.xcconfig"; path = "Target Support Files/Pods-Hockey super quiz/Pods-Hockey super quiz.release.xcconfig"; sourceTree = "<group>"; };
+		FB4AF046289A318100E62219 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		FB4AF048289A373800E62219 /* bttn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bttn.mp3; sourceTree = SOURCE_ROOT; };
+		FB4AF04E289A3A6200E62219 /* QuizController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizController.swift; sourceTree = "<group>"; };
+		FB4AF050289A3A7F00E62219 /* AnswerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerController.swift; sourceTree = "<group>"; };
+		FB4AF052289A3A9400E62219 /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
+		FB4AF054289A3AA100E62219 /* ShopController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopController.swift; sourceTree = "<group>"; };
+		FB4AF056289A43B800E62219 /* QuizData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizData.swift; sourceTree = "<group>"; };
+		FB4AF059289A4CA600E62219 /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
+		FB4AF05C289A80D100E62219 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		FB6AC239289A83D400242F67 /* ScoreInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreInfoController.swift; sourceTree = "<group>"; };
+		FB6AC23B289A9A6B00242F67 /* AnswerHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerHeaderView.swift; sourceTree = "<group>"; };
+		FB6AC23D289A9AB800242F67 /* AnswerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerCell.swift; sourceTree = "<group>"; };
+		FBA04CBF289E48F8007B86CA /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		FBA04CC0289E48F8007B86CA /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		FBA04CC4289E4934007B86CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FBA04CC6289E4936007B86CA /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FBA04CC8289E4A28007B86CA /* ExtensionForString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionForString.swift; sourceTree = "<group>"; };
+		FBA04CCA289E4A40007B86CA /* LocalizationSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationSystem.swift; sourceTree = "<group>"; };
 		FBF44102289989F600E8105F /* Hockey super quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hockey super quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF44105289989F600E8105F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBF44107289989F600E8105F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FBF44109289989F600E8105F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBF44109289989F600E8105F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		FBF4410C289989F600E8105F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBF4410E289989F700E8105F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBF44111289989F700E8105F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,17 +68,122 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACA33F704205ABC72E06DEF6 /* Pods_Hockey_super_quiz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40E990ACC7DD2255EB606233 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3517438F006EE6991333477E /* Pods_Hockey_super_quiz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68E4EBCBD1ADFBCFC4C24EDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				384BCB17160B10C96829649B /* Pods-Hockey super quiz.debug.xcconfig */,
+				5640C6275958839E9E5133D3 /* Pods-Hockey super quiz.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB4AF0422899901900E62219 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FBF44107289989F600E8105F /* SceneDelegate.swift */,
+				FBF44105289989F600E8105F /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FB4AF0432899902300E62219 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FBF44110289989F700E8105F /* LaunchScreen.storyboard */,
+				FBF4410B289989F600E8105F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB4AF0442899903200E62219 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				FBF44109289989F600E8105F /* BaseViewController.swift */,
+				FB4AF046289A318100E62219 /* MainController.swift */,
+				FB4AF04D289A3A2A00E62219 /* Shop */,
+				FB4AF04C289A3A1000E62219 /* Settings */,
+				FB4AF04B289A3A0500E62219 /* Answer */,
+				FB4AF04A289A39F300E62219 /* Quiz */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		FB4AF04A289A39F300E62219 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				FB4AF04E289A3A6200E62219 /* QuizController.swift */,
+				FB4AF056289A43B800E62219 /* QuizData.swift */,
+				FB6AC239289A83D400242F67 /* ScoreInfoController.swift */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
+		FB4AF04B289A3A0500E62219 /* Answer */ = {
+			isa = PBXGroup;
+			children = (
+				FB4AF050289A3A7F00E62219 /* AnswerController.swift */,
+				FB6AC23D289A9AB800242F67 /* AnswerCell.swift */,
+				FB6AC23B289A9A6B00242F67 /* AnswerHeaderView.swift */,
+			);
+			path = Answer;
+			sourceTree = "<group>";
+		};
+		FB4AF04C289A3A1000E62219 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FB4AF052289A3A9400E62219 /* SettingController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		FB4AF04D289A3A2A00E62219 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				FB4AF054289A3AA100E62219 /* ShopController.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		FB4AF058289A4C9900E62219 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				FB4AF059289A4CA600E62219 /* AppButton.swift */,
+				FBA04CC8289E4A28007B86CA /* ExtensionForString.swift */,
+				FBA04CCA289E4A40007B86CA /* LocalizationSystem.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		FB4AF05B289A80C000E62219 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				FB4AF05C289A80D100E62219 /* UserDefaultsManager.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
 		FBF440F9289989F600E8105F = {
 			isa = PBXGroup;
 			children = (
 				FBF44104289989F600E8105F /* Hockey super quiz */,
 				FBF44103289989F600E8105F /* Products */,
+				68E4EBCBD1ADFBCFC4C24EDC /* Pods */,
+				40E990ACC7DD2255EB606233 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +198,15 @@
 		FBF44104289989F600E8105F /* Hockey super quiz */ = {
 			isa = PBXGroup;
 			children = (
-				FBF44105289989F600E8105F /* AppDelegate.swift */,
-				FBF44107289989F600E8105F /* SceneDelegate.swift */,
-				FBF44109289989F600E8105F /* ViewController.swift */,
-				FBF4410B289989F600E8105F /* Main.storyboard */,
+				FB4AF05B289A80C000E62219 /* UserDefaults */,
+				FB4AF058289A4C9900E62219 /* Constants */,
+				FB4AF0442899903200E62219 /* Pages */,
+				FB4AF0432899902300E62219 /* View */,
+				FB4AF0422899901900E62219 /* App */,
 				FBF4410E289989F700E8105F /* Assets.xcassets */,
-				FBF44110289989F700E8105F /* LaunchScreen.storyboard */,
+				FB4AF048289A373800E62219 /* bttn.mp3 */,
 				FBF44113289989F700E8105F /* Info.plist */,
+				FBA04CC5289E4934007B86CA /* Localizable.strings */,
 			);
 			path = "Hockey super quiz";
 			sourceTree = "<group>";
@@ -74,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBF44116289989F700E8105F /* Build configuration list for PBXNativeTarget "Hockey super quiz" */;
 			buildPhases = (
+				DE372D04730E2F87CC6C0AA4 /* [CP] Check Pods Manifest.lock */,
 				FBF440FE289989F600E8105F /* Sources */,
 				FBF440FF289989F600E8105F /* Frameworks */,
 				FBF44100289989F600E8105F /* Resources */,
+				E6C9F29A1E347FBF45B11471 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -109,6 +255,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = FBF440F9289989F600E8105F;
 			productRefGroup = FBF44103289989F600E8105F /* Products */;
@@ -125,7 +272,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBA04CC3289E4934007B86CA /* Localizable.strings in Resources */,
 				FBF44112289989F700E8105F /* LaunchScreen.storyboard in Resources */,
+				FB4AF049289A373800E62219 /* bttn.mp3 in Resources */,
 				FBF4410F289989F700E8105F /* Assets.xcassets in Resources */,
 				FBF4410D289989F600E8105F /* Main.storyboard in Resources */,
 			);
@@ -133,24 +282,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DE372D04730E2F87CC6C0AA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hockey super quiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6C9F29A1E347FBF45B11471 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hockey super quiz/Pods-Hockey super quiz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hockey super quiz/Pods-Hockey super quiz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hockey super quiz/Pods-Hockey super quiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FBF440FE289989F600E8105F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBF4410A289989F600E8105F /* ViewController.swift in Sources */,
+				FB4AF047289A318100E62219 /* MainController.swift in Sources */,
+				FBA04CCB289E4A40007B86CA /* LocalizationSystem.swift in Sources */,
+				FBF4410A289989F600E8105F /* BaseViewController.swift in Sources */,
+				FB4AF04F289A3A6200E62219 /* QuizController.swift in Sources */,
+				FB4AF051289A3A7F00E62219 /* AnswerController.swift in Sources */,
+				FB4AF05D289A80D100E62219 /* UserDefaultsManager.swift in Sources */,
 				FBF44106289989F600E8105F /* AppDelegate.swift in Sources */,
+				FB4AF055289A3AA100E62219 /* ShopController.swift in Sources */,
 				FBF44108289989F600E8105F /* SceneDelegate.swift in Sources */,
+				FB6AC23C289A9A6B00242F67 /* AnswerHeaderView.swift in Sources */,
+				FB6AC23A289A83D400242F67 /* ScoreInfoController.swift in Sources */,
+				FBA04CC9289E4A28007B86CA /* ExtensionForString.swift in Sources */,
+				FB4AF057289A43B800E62219 /* QuizData.swift in Sources */,
+				FB6AC23E289A9AB800242F67 /* AnswerCell.swift in Sources */,
+				FB4AF053289A3A9400E62219 /* SettingController.swift in Sources */,
+				FB4AF05A289A4CA600E62219 /* AppButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		FBA04CC5289E4934007B86CA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBA04CC4289E4934007B86CA /* en */,
+				FBA04CC6289E4936007B86CA /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		FBF4410B289989F600E8105F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FBF4410C289989F600E8105F /* Base */,
+				FBA04CC0289E48F8007B86CA /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,6 +373,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				FBF44111289989F700E8105F /* Base */,
+				FBA04CBF289E48F8007B86CA /* ru */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,6 +385,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -230,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -282,6 +499,7 @@
 		};
 		FBF44117289989F700E8105F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 384BCB17160B10C96829649B /* Pods-Hockey super quiz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +513,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +529,7 @@
 		};
 		FBF44118289989F700E8105F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5640C6275958839E9E5133D3 /* Pods-Hockey super quiz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +543,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

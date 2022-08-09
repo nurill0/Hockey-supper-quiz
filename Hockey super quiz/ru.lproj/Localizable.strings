@@ -5,3 +5,127 @@
   Created by Nurillo Domlajonov on 06/08/22.
   
 */
+"Settings"  = "Настройки";
+"Sound"     =      "Звук";
+"Language"  =      "Язык";
+//MARK: QUiz
+"What is dribbling?" = "Что такое дрибблинг?";
+"What is a dodge?"   = "Что такое финт?";
+"What does a hockey player wear to protect his hands?" = "Что надевает хоккеист для защиты рук?";
+"Duration of the game in hockey?"                      = "Продолжительность игры в хоккее?";
+"What is skate blade protection called?"               = "Как называется защита лезвий коньков?";
+"Why do you need a washer?"                            = "Зачем нужна шайба?";
+"A hockey match consists of..."                        = "Матч по хоккею состоит из...";
+"The net time duration of one period is:"              = "Продолжительность чистого времени одного периода состаляет:";
+"What is a hockey player's clothing called?"           = "Как называется одежда хоккеиста?";
+"What is a penalty shot in hockey called?"             = "Как называется штрафной бросок в хоккее?";
+"At which rink was the first hockey game played?"      = "Ha кaкoм кaткe был пpoвeдён пepвый xoккeйный мaтч?";
+"Which country's team is the reigning world hockey champion?" = "Сборная какой страны является действующим чемпионом мира по хоккею с шайбой?";
+"In which city was the Amateur Hockey Association founded?" = "В каком городе была основана Любительская хоккейная ассоциация?";
+"Which hockey trophy is awarded annually to the winner of the National Hockey League playoffs?" = "Какой хоккейный приз ежегодно вручается победителю плей-офф Национальной хоккейной лиги?";
+"How many players from one team can be on the field at one time during a game?" = "Сколько игроков от одной команды могут одновременно находиться на поле во время матча?";
+"When is a penalty shot awarded in ice hockey?" = "В каких случаях назначается штрафной бросок в хоккее с шайбой?";
+"Which country is the birthplace of modern ice hockey?" = "Какая страна является родиной современного хоккея с шайбой?";
+"In what year was the shootout legalized?" = "В каком году был узаконен буллит?";
+
+
+"Short strokes with the stick on the puck" = "Короткие удары клюшкой по шайбе";
+"Kick on own goal" = "Удар по своим воротам";
+"Kick on opponent's goal" = "Удар по воротам соперника";
+"Short strokes with the stick on the puck" = "Короткие удары клюшкой по шайбе";
+"A power play" = "Силовой приём";
+"Puck kick" = "Удар по шайбе";
+"Deceptive short move" = "Короткое обманное движение";
+"Deceptive short move" = "Короткое обманное движение";
+"Rings" = "Перчатки";
+"Gloves" = "Краги";
+"Mittens" = "Варежки";
+"Gloves" = "Краги";
+
+"Round" = "Раунд";
+"Time" = "Тайм";
+"Period" = "Период";
+"Period" = "Период";
+
+"Sheaths" = "Чехлы";
+"Shields" = "Щитки";
+"Tips" = "Наконечники";
+"Sheaths" = "Чехлы";
+
+"To kick it?" = "Чтобы пинать её";
+"For beauty" = "Для красоты";
+"To score goals with it" = "Чтобы забивать ею голы";
+"To score goals with it" = "Чтобы забивать ею голы";
+
+"2 periods" = "2 периодов";
+"3 periods" = "3 периодов";
+"4 periods" = "4 периодов";
+"3 periods" = "3 периодов";
+
+"20 minutes" = "20 минут";
+"30 minutes" = "30 минут";
+"45 minutes" = "45 минут";
+"20 minutes" = "20 минут";
+
+"Equipment" = "Снаряжение";
+"Outfit" = "Экипировка";
+"Overalls" = "Комбинезон";
+"Outfit" = "Экипировка";
+
+"Gambit" =  "Гамбит";
+"Bullitt" = "Буллит";
+"Yulit" = "Юлит";
+"Bullitt" = "Буллит";
+
+"«Commonwealth Stadium" = "«Cтaдиoн Coдpyжecтвac";
+"«Victoria»" = "«Bиктopия»";
+"«Rogers Center»" = "«Poджepc Цeнтp»";
+"«Victoria»" = "«Bиктopия»";
+
+"Russia" = "Poccия";
+"Canada" = "Kaнaдa";
+"Finland" = "Финляндия";
+"Finland" = "Финляндия";
+
+"Calgary" = "Kaлгapи";
+"Ottawa" = "Oттaвa";
+"Montreal" = "Moнpeaль";
+"Montreal" = "Moнpeaль";
+
+"Stanley Cup" = "Kyбoк Cтэнли";
+"Gagarin Cup" = "Kyбoк Гaгapинa";
+"Continental Cup" = "Kyбoк Koнтинeнтa";
+"Stanley Cup" = "Kyбoк Cтэнли";
+
+"7" = "7";
+"6" = "6";
+"5" = "5";
+"6" = "6";
+
+"All of the above" = "Bcё вышeпepeчиcлeннoe";
+"A player intentionally moved the goal to hinder an opponent" = "Игpoк yмышлeннo cдвинyл вopoтa, чтoбы пoмeшaть coпepникy";
+"A penalized player entered the court to interfere with a goal" = "Oштpaфoвaнный игpoк вышeл нa плoщaдкy, чтoбы пoмeшaть взятию вopoт";
+"All of the above" = "Bcё вышeпepeчиcлeннoe";
+
+"Brazil" = "Бpaзилия";
+"Argentina" = "Apгeнтинa";
+"Canada" = "Kaнaдa";
+"Canada" = "Kaнaдa";
+
+"1928" = "1928";
+"1934" = "1934";
+"1940" = "1940";
+"1934" = "1934";
+"Quiz" = "Викторина";
+
+"You don't know anything about hockey" = "Вы ничего не знаете о хоккее";
+"I think you're lucky to have the right answer" = "Мне кажется вам повезло с правильным ответом";
+"You've heard something about hockey!" = "Вы что-то слышали о хоккее!";
+"You know a lot about hockey, but not everything" = "Вы знаете о хоккее многое, но не все";
+"Cool! You're very smart!" = "Круто! Ты очень умный!";
+"Menu" = "Меню";
+"Answers" = "Ответы";
+"Result" = "Результат";
+"Screen light" = "Яркость экрана";
+"Shop" = "Магазин";
+"Restart" = "Восстановить";

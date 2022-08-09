@@ -1,7 +1,32 @@
 /* 
-  Localizable.strings
-  Hockey super quiz
+ Localizable.strings
+ Hockey super quiz
+ 
+ Created by Nurillo Domlajonov on 06/08/22.
+ 
+ */
 
-  Created by Nurillo Domlajonov on 06/08/22.
-  
-*/
+"Settings" = "Settings";
+"Sound" = "Sound";
+"Language" = "Language";
+
+
+//MARK: QUiz
+"What is dribbling?" = "What is dribbling?";
+"What is a dodge?" = "What is a dodge?";
+"What does a hockey player wear to protect his hands?" = "What does a hockey player wear to protect his hands?";
+"Duration of the game in hockey?" = "Duration of the game in hockey?";
+"What is skate blade protection called?" = "What is skate blade protection called?";
+"Why do you need a washer?" = "Why do you need a washer?";
+"A hockey match consists of..." = "A hockey match consists of...";
+"The net time duration of one period is:" = "The net time duration of one period is:";
+"What is a hockey player's clothing called?" = "What is a hockey player's clothing called?";
+"What is a penalty shot in hockey called?" = "What is a penalty shot in hockey called?";
+"At which rink was the first hockey game played?" = "At which rink was the first hockey game played?";
+"Which country's team is the reigning world hockey champion?" = "Which country's team is the reigning world hockey champion?";
+"In which city was the Amateur Hockey Association founded?" = "In which city was the Amateur Hockey Association founded?";
+"Which hockey trophy is awarded annually to the winner of the National Hockey League playoffs?" = "Which hockey trophy is awarded annually to the winner of the National Hockey League playoffs?";
+"How many players from one team can be on the field at one time during a game?" = "How many players from one team can be on the field at one time during a game?";
+"When is a penalty shot awarded in ice hockey?" = "When is a penalty shot awarded in ice hockey?";
+"Which country is the birthplace of modern ice hockey?" = "Which country is the birthplace of modern ice hockey?";
+"In what year was the shootout legalized?" = "In what year was the shootout legalized?";
